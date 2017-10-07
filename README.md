@@ -1,5 +1,5 @@
 <p align="center">
-  <img />
+  <img src="sample.png" />
 </p>
 
 This little Python script converts an image to an audio file (.wav) so when played and analysed with a tool capable of plotting 
