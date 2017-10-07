@@ -7,3 +7,11 @@ a heatmap of the spectrum over time (X-axis: log(frequency), Y-axis: time, color
 The script has been tested with an Android app called *Spectroid*.
 
 ## How to use
+### Requirements
+* Pillow (PIL wrapper)
+* SciPy
+* NumPy
+
+### Execution
+* Edit the script to change settings if wanted, the important thins are `maxfreq` and `minfreq` that defines the interval of frequencies (in Hz) used and also `T` the duration (in seconds) of each pixel row.
+* Run `python createwav.py [image.something]` and a `image.wav` will be created.
