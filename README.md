@@ -13,5 +13,5 @@ The script has been tested with an Android app called *Spectroid*.
 * NumPy
 
 ### Execution
-* Edit the script to change settings if wanted, the important thins are `maxfreq` and `minfreq` that defines the interval of frequencies (in Hz) used and also `T` the duration (in seconds) of each pixel row.
+* Edit the script to change settings if wanted, the important things are `maxfreq` and `minfreq` that defines the interval of frequencies (in Hz) used and also `T` the duration (in seconds) of each pixel row.
 * Run `python createwav.py [image.something]` and a `image.wav` will be created.
