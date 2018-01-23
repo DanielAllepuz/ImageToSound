@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.io.wavfile import write
-import matplotlib.pyplot as plt
 from PIL import Image
 import sys
 
@@ -36,6 +35,4 @@ if __name__ == "__main__":
 
     waveform = 32767*np.array(waveform)/max(np.abs(waveform))
     waveform = np.array(waveform, dtype = 'int16')
-    plt.plot(np.linspace(0,1,len(waveform)), waveform)
-    plt.show()
     write(imagename.split(".")[0] + ".wav", rate, waveform)
